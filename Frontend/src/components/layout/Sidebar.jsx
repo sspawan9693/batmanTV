@@ -277,7 +277,7 @@ function Sidebar({ isSidebarOpen }) {
             "
           >
             <span className="text-xs text-zinc-600">
-              © Sharma28
+              © Pawan Kumar
             </span>
           </motion.div>
         )}

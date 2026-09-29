@@ -7,7 +7,7 @@
     "backend"
   ],
   "license": "ISC",
-  "author": "Mayank Sharma",
+  "author": "Pawan Kumar",
   "type": "module",
   "main": "index.js",
  "scripts": {
