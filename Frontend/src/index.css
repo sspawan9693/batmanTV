@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@layer base {
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+    background: #0f0f0f;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    text-rendering: optimizeLegibility;
+  }
+
+  button,
+  a,
+  input,
+  textarea,
+  select,
+  img {
+    transition:
+      background-color .22s ease,
+      border-color .22s ease,
+      color .22s ease,
+      transform .22s ease,
+      opacity .22s ease,
+      box-shadow .22s ease;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+
+  ::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0f0f0f;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #3f3f46;
+    border-radius: 999px;
+    border: 2px solid #0f0f0f;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5a5a5a;
+  }
+}
+
+/* Hide scrollbar while keeping scroll functionality */
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------- Plyr Theme ---------- */
+
+:root {
+  --plyr-color-main: #ef4444;
+}
+
+.plyr {
+  border-radius: 1rem;
+}
+
+.plyr--video {
+  background: #000;
+}
+
+.plyr__control:hover {
+  background: #ef4444 !important;
+}
+
+.plyr__menu__container {
+  background: #18181b !important;
+  color: white;
+}
+
+.plyr__menu__container .plyr__control {
+  color: white;
+}
+
+.plyr__menu__container .plyr__control:hover {
+  background: #27272a !important;
+}
