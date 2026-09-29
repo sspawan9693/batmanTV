@@ -60,32 +60,6 @@ BatmanTV/
 
 ---
 
-## 🚀 How to Run Locally
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/sharma-mayankkk/BatmanTV.git
-cd BatmanTV
-```
-
-**2. Setup Backend**
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-**3. Setup Frontend**
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-**4. Add environment variables** (see below) in `.env` files for both `frontend` and `backend`.
-
----
-
 ## 🔑 Environment Variables
 
 **Backend (`backend/.env`)**
@@ -130,8 +104,3 @@ The frontend communicates with the deployed Express backend via REST APIs, with 
 - Dark/Light theme toggle
 
 ---
-
-## 👨‍💻 Author
-
-**Mayank Sharma**
-🔗 [GitHub](https://github.com/sharma-mayankkk)
